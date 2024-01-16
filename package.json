@@ -6,7 +6,6 @@
   "author": "Bedeoan Raul <raul.bedeoan@plentymarkets.com>",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext .js,.vue ./",
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "start": "serve -p 81 -s dist/spa",
     "test": "echo \"No test specified\" && exit 0 ",
